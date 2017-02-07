@@ -1,11 +1,114 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Title of the document</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menu</title>
+<style>
+
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  margin:0;
+  padding:0;
+}
+
+h1 {
+  margin: 20px;
+  font-size: 175%
+}
+
+.content {
+  margin: 10px;
+}
+
+.section {
+  background-color: lightgray;
+  position: relative;
+  margin: 10px;
+}
+
+.section_title {
+  position: absolute;
+  right: 0px;
+  width: 150px;
+  color: black;
+  padding: 5px 40px 5px 40px;
+  border: 1px solid black;
+  font-size: 125%
+}
+
+.section_aramis {
+  background-color: pink;
+}
+.section_athos {
+  background-color: red;
+  color: white;
+}
+.section_porthos {
+  background-color: yellow;
+}
+
+.section_text {
+    border: 1px solid black;
+    padding: 40px 10px 10px 10px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 33.33%;
+  }
+  .col-lg-3 {
+    width: 33.33%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6, .col-md-12 {
+    float: left;
+  }
+  .col-md-6 {
+    width: 50%;
+  }
+  .col-md-12 {
+    width: 100%;
+  }
+}
+
+
+</style>
 </head>
-
 <body>
-The content of the document......end of message
-</body>
+<h1>Our Menu</h1>
 
+<div class="content">
+  <div class="col-lg-3 col-md-6">
+    <div class="section">
+      <p class="section_title section_aramis">Aramis</p>
+      <p class="section_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-6">
+    <div class="section">
+    <p class="section_title section_athos">Athos</p>
+    <p class="section_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+  <div class="col-lg-3 col-md-12">
+    <div class="section">
+    <p class="section_title section_porthos">Porthos</p>
+    <p class="section_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </div>
+  </div>
+</div>
+
+</body>
 </html>
