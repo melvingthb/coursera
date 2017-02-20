@@ -8,7 +8,7 @@
 .nav-items {
   width: 100%;
   text-align: center;
-  padding: 5px;
+  padding: 10px;
   color: #fff;
 }
 .nav-splitter {
@@ -16,7 +16,7 @@
 }
 .content-menu {
   height: 1000px;
-  margin: 10px;
+  margin: 20px;
   background-color: #A9A9A9;
   color: #fff;
 }
