@@ -1,1 +1,22 @@
-
+.nav-menu{
+  background-color: #A9A9A9;
+}
+.navbar-nav{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.nav-items {
+  width: 100%;
+  text-align: center;
+  padding: 5px;
+  color: #fff;
+}
+.nav-splitter {
+  margin: 0px;
+}
+.content-menu {
+  height: 1000px;
+  margin: 10px;
+  background-color: #A9A9A9;
+  color: #fff;
+}
