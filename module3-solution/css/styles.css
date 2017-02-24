@@ -14,9 +14,15 @@
 .nav-splitter {
   margin: 0px;
 }
-.content-menu {
-  height: 1000px;
-  margin: 20px;
+.content {
+  margin: 15px;
+}
+.section-menu {
+  box-sizing: border-box;
+  margin-bottom: 30px;
+  height: 700px;
+  border: 2px solid black;
   background-color: #A9A9A9;
   color: #fff;
+  overflow: auto;
 }
